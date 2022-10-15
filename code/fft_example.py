@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+Í
 def acor(x):
     result = np.correlate(x, x, mode='full')
     return result[result.size/2.:]
